@@ -2,28 +2,6 @@
 Principio di inerzia: un corpo su cui non è applicata alcuna forza si muove a velocità costante
 
 # Secondo principio di Newton
-### Esperimento
-Luogo: lago ghiacciato, attrito trascurabile
-Materiali: cubo con una determinata massa, molla, cordella metrica, cronometro
-Svolgimento:
-Dal secondo $0$ si spinge con forza costante (misurabile attraverso la compressione della molla) il cubo fino al secondo $5$ e si effettuano misurazioni dello spazio percorso
-Misurazioni:
-
-| $t$  | $x$  |
-| ---- | ---- |
-| $-1$ | $0$  |
-| $0$  | $0$  |
-| $1$  | $1$  |
-| $2$  | $4$  |
-| $3$  | $9$  |
-| $4$  | $16$ |
-| $5$  | $25$ |
-| $6$  | $35$ |
-| $7$  | $45$ |
-| $8$  | $55$ |
-Conclusione:
-Si nota che durante la spinta si verifica la formula $x=ct^{2}$, con $c=\pu{ 1m/s2 }$, mentre finita la spinta la velocità rimane costante, come prima della spinta
-
 ### Velocità, spazio, accelerazione
 La velocità media si calcola come segue
 $$\begin{flalign} v_{m}=\frac{\Delta x}{\Delta t}&&\end{flalign}$$
@@ -62,3 +40,26 @@ $d$: distanza
 $G$: costante di gravitazione universale
 
 Il campo gravitazionale sulla superficie terrestre è $g=G\frac{m_{T}}{r_{T}^{2}}=\pu{ 9.81 m/s2 }$
+
+# Vettori
+$\vec{r}=x\cdot \vec{i}+y\cdot \vec{j}$
+$$\begin{flalign}\vec{v}=\lim_{ \Delta t \to 0 } \frac{\vec{\Delta r}}{\Delta t}=\lim_{ \Delta t \to 0 } \frac{\Delta x}{\Delta t}\vec{i}+\lim_{ \Delta t \to 0 } \frac{\Delta y}{\Delta t}\vec{j}=\frac{dx}{dt}\vec{i}+\frac{dy}{dt}\vec{j} &&\end{flalign}$$
+$$\begin{flalign}\vec{a}=\frac{d^{2}x}{dt^{2}}\vec{i}+\frac{d^{2}y}{dt^{2}}\vec{j} &&\end{flalign}$$
+
+$$\begin{flalign}\vec{F}=G\cdot \frac{m_{1}\cdot m_{2}}{r^{2}}\hat{r} &&\end{flalign}$$
+
+# Forza elastica
+Le caratteristiche di una molla sono:
+- lunghezza caratteristica/a riposo $l_{c}$
+- costante elastica $k$
+La forza esercitata dalla molla si ottiene con
+$\vec{F_{e}}=-k \cdot\vec{\Delta x}$
+$F_{e}=m\cdot a$
+$-k\cdot\Delta x=m\cdot a$
+Dove $\Delta x=|l_{c}-x|$, centrando il sistema in $l_{c}$ si ottiene $\Delta x=|x|$
+
+# Attrito radente
+L'attrito è una forza che si oppone al movimento di un oggetto appoggiato su una superficie. Se l'attrito statico è maggiore o uguale alla forza applicata l'oggetto rimane fermo, altrimenti il caso diventa dinamico. Se l'attrito dinamico diventa maggiore della forza applicata l'oggetto si ferma.
+L'attrito è direttamente proporzionale alla reazione normale del piano, moltiplicata per un coefficiente. Il coefficiente di attrito statico è sempre maggiore di quello dinamico.
+$\vec{F_{AS}}=\vec{N}\cdot \mu_{S}$
+$\vec{F_{AD}}=\vec{N}\cdot \mu_{D}$
