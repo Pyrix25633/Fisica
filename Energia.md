@@ -21,6 +21,10 @@ $$\begin{flalign}E_{k}=\frac{mv^{2}}{2} &&\end{flalign}$$
 # Energia potenziale
 Sempre per quanto visto sopra $W=-\Delta E_{p}\implies E_{p}=\vec{F}\cdot \vec{r}$
 
+# Energia meccanica
+Se agiscono solo forze conservative vale $W=\Delta E_{c}=-\Delta E_{p}$ e l'energia meccanica $E_{m}=E_{c}+E_{p}$ di un punto materiale si conserva ed è costante
+$$\begin{flalign}E_{m}=\frac{mv^{2}}{2}-\vec{F}\cdot\vec{r} &&\end{flalign}$$
+
 # Potenza
 La potenza è il lavoro sull'unità di tempo ovvero
 $$\begin{flalign}P=\frac{dW}{dt}=\vec{F}\cdot \frac{d\vec{r}}{dt}=\vec{F}\cdot \vec{v} &&\end{flalign}$$
