@@ -17,13 +17,27 @@ $$\begin{flalign}\oint \vec{F}\,d\vec{r}=0 &&\end{flalign}$$
 # Energia cinetica
 La differenza di energia cinetica corrisponde al lavoro, per quanto trovato sopra
 $$\begin{flalign}E_{k}=\frac{mv^{2}}{2} &&\end{flalign}$$
-
 # Energia potenziale
 Sempre per quanto visto sopra $W=-\Delta E_{p}\implies E_{p}=\vec{F}\cdot \vec{r}$
 
 # Energia meccanica
 Se agiscono solo forze conservative vale $W=\Delta E_{c}=-\Delta E_{p}$ e l'energia meccanica $E_{m}=E_{c}+E_{p}$ di un punto materiale si conserva ed è costante
 $$\begin{flalign}E_{m}=\frac{mv^{2}}{2}-\vec{F}\cdot\vec{r} &&\end{flalign}$$
+
+# Quantità di moto
+$\vec{p}=m\cdot \vec{v}$
+$$\begin{flalign}\vec{F}=m\cdot \vec{a}=m\cdot \frac{d\vec{v}}{dt}=\frac{d\vec{p}}{dt} &&\end{flalign}$$
+La quantità di moto totale è la somma delle quantità di moto $\sum_{i}\vec{p_{i}}$
+La somma di tutte le forze è uguale alla somma delle derivate delle quantità di moto
+$$\begin{flalign}\sum_{i}\vec{F_{i}}=\sum_{i} \frac{d\vec{p_{i}}}{dt}=\frac{d}{dt}\sum_{i}\vec{p_{i}} &&\end{flalign}$$
+
+# Urti elastici
+Nella teoria degli urti la somma delle forze esterne è nulla e quindi irrilevante, inoltre ogni forza interna ha la sua forza di reazione e quindi è nulla
+Perciò la derivata della quantità di moto è nulla e la quantità di moto è costante, si preserva nel sistema
+Per la quantità di moto:
+$p_{0A}+p_{0B}=m_{A}\cdot v_{0A}+m_{B}\cdot v_{0A}=m_{A}\cdot v_{1A}+m_{B}\cdot v_{1B}=p_{1A}+p_{1B}$
+Per l'energia cinetica:
+$$\begin{flalign}E_{kA} &&\end{flalign}$$
 
 # Potenza
 La potenza è il lavoro sull'unità di tempo ovvero
