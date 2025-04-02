@@ -37,7 +37,15 @@ Perciò la derivata della quantità di moto è nulla e la quantità di moto è c
 Per la quantità di moto:
 $p_{0A}+p_{0B}=m_{A}\cdot v_{0A}+m_{B}\cdot v_{0A}=m_{A}\cdot v_{1A}+m_{B}\cdot v_{1B}=p_{1A}+p_{1B}$
 Per l'energia cinetica:
-$$\begin{flalign}E_{kA} &&\end{flalign}$$
+$$\begin{flalign}E_{k0A}+E_{k0B}=\frac{1}{2}m_{A}v_{0A}^{2}+\frac{1}{2}m_{B}v_{0B}^{2}=\frac{1}{2}m_{A}v_{1A}^{2}+\frac{1}{2}m_{B}v_{1B}^{2}=E_{k1A}+E_{k1B} &&\end{flalign}$$
+
+### Urti elastici tra oggetti con la stessa massa
+Nelle formule precedenti si può dividere per la massa in quanto $m_{A}=m_{B}$ ottenendo
+$$\begin{flalign}\begin{cases}
+v_{0A}-v_{1A}=v_{0B}-v_{1B} \\
+v_{0A}+v_{1A}=v_{0B}+v_{1B} \\
+\end{cases} &&\end{flalign}$$
+Quindi $v_{0A}=v_{1B}$ e $v_{1A}=v_{0B}$
 
 # Potenza
 La potenza è il lavoro sull'unità di tempo ovvero
