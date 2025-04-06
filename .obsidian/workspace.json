@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Energia.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -167,11 +167,11 @@
   "active": "e8970b7be1fb0c2b",
   "lastOpenFiles": [
     "pdf/Energia.pdf",
+    "pdf/Cinematica.pdf",
+    "Energia.md",
     "Pasted image 20250331203158.png",
     "Cinematica.md",
-    "Energia.md",
     "README.md",
-    "pdf/Cinematica.pdf",
     "pdf",
     "Untitled.canvas",
     "Notazione.md",
@@ -194,7 +194,6 @@
     "pdf/Integrali.pdf",
     "pdf/Polinomi di Taylor.pdf",
     "pdf/Derivate.pdf",
-    "pdf/Proprietà delle funzioni continue.pdf",
     "Trasformazioni di funzioni.md",
     "Pasted image 20241230094656.png",
     "Pasted image 20241230094004.png",

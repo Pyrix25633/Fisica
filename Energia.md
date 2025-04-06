@@ -23,6 +23,7 @@ Sempre per quanto visto sopra $W=-\Delta E_{p}\implies E_{p}=\vec{F}\cdot \vec{r
 # Energia meccanica
 Se agiscono solo forze conservative vale $W=\Delta E_{c}=-\Delta E_{p}$ e l'energia meccanica $E_{m}=E_{c}+E_{p}$ di un punto materiale si conserva ed è costante
 $$\begin{flalign}E_{m}=\frac{mv^{2}}{2}-\vec{F}\cdot\vec{r} &&\end{flalign}$$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Quantità di moto
 La quantità di moto è definita come il prodotto della velocità per la massa
@@ -32,6 +33,10 @@ $$\begin{flalign}\vec{F}=m\cdot \vec{a}=m\cdot \frac{d\vec{v}}{dt}=\frac{d\vec{p
 La quantità di moto totale è la somma delle quantità di moto $\sum_{i}\vec{p_{i}}$
 La somma di tutte le forze è uguale alla somma delle derivate delle quantità di moto
 $$\begin{flalign}\sum_{i}\vec{F_{i}}=\sum_{i} \frac{d\vec{p_{i}}}{dt}=\frac{d}{dt}\sum_{i}\vec{p_{i}} &&\end{flalign}$$
+
+# Impulso
+L'impulso cambia la quantità di moto nel tempo
+$$\begin{flalign}I=\int_{t_{0}}^{t_{1}} \vec{F}\,dt=\int_{t_{0}}^{t_{1}} m\,d\vec{v} = \vec{p_{1}}-\vec{p_{0}} &&\end{flalign}$$
 
 # Urti elastici
 Nella teoria degli urti la somma delle forze esterne è nulla e quindi irrilevante, inoltre ogni forza interna ha la sua forza di reazione e quindi è nulla
