@@ -53,11 +53,13 @@ $$\begin{flalign}\vec{F}=G\cdot \frac{m_{1}\cdot m_{2}}{r^{2}}\hat{r} &&\end{fla
 Le caratteristiche di una molla sono:
 - lunghezza caratteristica/a riposo $l_{c}$
 - costante elastica $k$
+
 La forza esercitata dalla molla si ottiene con
 $\vec{F_{e}}=-k \cdot\vec{\Delta x}$
 $F_{e}=m\cdot a$
 $-k\cdot\Delta x=m\cdot a$
 Dove $\Delta x=|l_{c}-x|$, centrando il sistema in $l_{c}$ si ottiene $\Delta x=|x|$
+
 <div class="page-break" style="page-break-before: always;"></div>
 
 # Attrito radente

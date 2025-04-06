@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dc3ac9c70cfb7172",
+        "id": "08f3d12d354e8b10",
         "type": "tabs",
         "children": [
           {
-            "id": "e8970b7be1fb0c2b",
+            "id": "e322ba7a77d1ca53",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Energia.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Energia"
+              "title": "New tab"
             }
           }
         ]
@@ -164,13 +160,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8970b7be1fb0c2b",
+  "active": "e322ba7a77d1ca53",
   "lastOpenFiles": [
     "pdf/Energia.pdf",
-    "pdf/Cinematica.pdf",
-    "Energia.md",
-    "Pasted image 20250331203158.png",
     "Cinematica.md",
+    "Energia.md",
+    "pdf/Cinematica.pdf",
+    "Pasted image 20250331203158.png",
     "README.md",
     "pdf",
     "Untitled.canvas",
