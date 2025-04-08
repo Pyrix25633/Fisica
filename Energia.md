@@ -36,7 +36,7 @@ $$\begin{flalign}\sum_{i}\vec{F_{i}}=\sum_{i} \frac{d\vec{p_{i}}}{dt}=\frac{d}{d
 
 # Impulso
 L'impulso cambia la quantità di moto nel tempo
-$$\begin{flalign}I=\int_{t_{0}}^{t_{1}} \vec{F}\,dt=\int_{t_{0}}^{t_{1}} m\,d\vec{v} = \vec{p_{1}}-\vec{p_{0}} &&\end{flalign}$$
+$$\begin{flalign}J=\int_{t_{0}}^{t_{1}} \vec{F}\,dt=\int_{t_{0}}^{t_{1}} m\,d\vec{v} = \vec{p_{1}}-\vec{p_{0}} &&\end{flalign}$$
 
 # Urti elastici
 Nella teoria degli urti la somma delle forze esterne è nulla e quindi irrilevante, inoltre ogni forza interna ha la sua forza di reazione e quindi è nulla
@@ -59,3 +59,19 @@ Quindi $v_{0A}=v_{1B}$ e $v_{1A}=v_{0B}$
 # Potenza
 La potenza è il lavoro sull'unità di tempo ovvero
 $$\begin{flalign}P=\frac{dW}{dt}=\vec{F}\cdot \frac{d\vec{r}}{dt}=\vec{F}\cdot \vec{v} &&\end{flalign}$$
+<div class="page-break" style="page-break-before: always;"></div>
+
+# Momento meccanico
+Il momento meccanico è definito come il prodotto vettoriale tra la forza e la posizione di applicazione
+$\vec{M}=\vec{r}\times \vec{F}$
+Per i corpi in rotazione, con punto di riferimento nel centro di rotazione vale anche
+$\vec{M}=I\cdot\vec{\alpha}$
+dove $I$ è il momento di inerzia e varia a seconda della forma dell'oggetto
+Inoltre per il teorema di Huggens-Steiner $I=I_{B}+d^{2}\cdot m$, con $I$ momento di inerzia nel baricentro e $d$ la distanza dal baricentro
+
+# Momento angolare
+Il momento angolare è il prodotto vettoriale la tra quantità di moto e la posizione di applicazione
+$\vec{L}=\vec{r}\times \vec{p}$
+In modo simile al lavoro vale
+$$\begin{flalign}\sum_{i}\vec{M_{i}}=\frac{d}{dt}\sum_{i}\vec{L_{i}} &&\end{flalign}$$
+Il tempo di svolgimento è infinitesimo, quindi la somma dei momenti meccanici si può approssimare a $0$, pertanto la somma dei momenti angolari è costante 
