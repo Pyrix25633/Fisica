@@ -18,11 +18,12 @@ $$\begin{flalign}\oint \vec{F}\,d\vec{r}=0 &&\end{flalign}$$
 La differenza di energia cinetica corrisponde al lavoro, per quanto trovato sopra
 $$\begin{flalign}E_{k}=\frac{mv^{2}}{2} &&\end{flalign}$$
 # Energia potenziale
-Sempre per quanto visto sopra $W=-\Delta E_{p}\implies E_{p}=\vec{F}\cdot \vec{r}$
+Sempre per quanto visto sopra $W=-\Delta E_{p}$
+Per una forza costante vale sempre $E_{p}=\vec{F}\cdot \vec{r}$, come nel caso della forza peso $E_{p}=m\cdot \vec{g}\cdot \vec{r}$
+Per la forza elastica invece bisogna svolgere l'integrale e $E_{p}=\frac{k}{2}r^{2}$
 
 # Energia meccanica
 Se agiscono solo forze conservative vale $W=\Delta E_{c}=-\Delta E_{p}$ e l'energia meccanica $E_{m}=E_{c}+E_{p}$ di un punto materiale si conserva ed è costante
-$$\begin{flalign}E_{m}=\frac{mv^{2}}{2}-\vec{F}\cdot\vec{r} &&\end{flalign}$$
 <div class="page-break" style="page-break-before: always;"></div>
 
 # Quantità di moto
@@ -66,8 +67,11 @@ Il momento meccanico è definito come il prodotto vettoriale tra la forza e la p
 $\vec{M}=\vec{r}\times \vec{F}$
 Per i corpi in rotazione, con punto di riferimento nel centro di rotazione vale anche
 $\vec{M}=I\cdot\vec{\alpha}$
-dove $I$ è il momento di inerzia e varia a seconda della forma dell'oggetto
-Inoltre per il teorema di Huggens-Steiner $I=I_{B}+d^{2}\cdot m$, con $I$ momento di inerzia nel baricentro e $d$ la distanza dal baricentro
+dove $I$ è il momento di inerzia e varia a seconda della forma dell'oggetto:
+- per un disco di massa uniforme $I=\frac{m\cdot R^{2}}{2}$
+- per un anello di massa concentrata verso l'esterno $I=m\cdot R^{2}$
+
+Inoltre per il teorema di Huggens-Steiner $I=I_{B}+d^{2}\cdot m$, con $I_{B}$ momento di inerzia nel baricentro e $d$ la distanza dal baricentro
 
 # Momento angolare
 Il momento angolare è il prodotto vettoriale la tra quantità di moto e la posizione di applicazione
