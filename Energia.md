@@ -65,11 +65,12 @@ $$\begin{flalign}P=\frac{dW}{dt}=\vec{F}\cdot \frac{d\vec{r}}{dt}=\vec{F}\cdot \
 # Momento meccanico
 Il momento meccanico è definito come il prodotto vettoriale tra la forza e la posizione di applicazione
 $\vec{M}=\vec{r}\times \vec{F}$
+In modulo $M=r\cdot F\cdot \sin(\theta)$
 Per i corpi in rotazione, con punto di riferimento nel centro di rotazione vale anche
 $\vec{M}=I\cdot\vec{\alpha}$
-dove $I$ è il momento di inerzia e varia a seconda della forma dell'oggetto:
-- per un disco di massa uniforme $I=\frac{m\cdot R^{2}}{2}$
-- per un anello di massa concentrata verso l'esterno $I=m\cdot R^{2}$
+dove $I=c\cdot m\cdot r^{2}$ è il momento di inerzia e varia a seconda della forma dell'oggetto:
+- per un disco di massa uniforme $c=\frac{1}{2}$
+- per un anello di massa concentrata verso l'esterno $c=1$
 
 Inoltre per il teorema di Huggens-Steiner $I=I_{B}+d^{2}\cdot m$, con $I_{B}$ momento di inerzia nel baricentro e $d$ la distanza dal baricentro
 

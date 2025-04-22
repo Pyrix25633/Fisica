@@ -24,6 +24,11 @@ si ottiene
 $$\begin{flalign}a\cdot(x_{1}-x_{0})=\frac{v_{1}^{2}-v_{0}^{2}}{2} &&\end{flalign}$$
 <div class="page-break" style="page-break-before: always;"></div>
 
+### Velocità in relazione allo spazio
+Dall'equazione precedente
+$$\begin{flalign}v_{1}^{2}-v_{2}^{2}=2\cdot a\cdot(x_{1}-x_{2})\\&&\end{flalign}$$
+$$\begin{flalign}v_{2}=\sqrt{v_{1}^{2}-2\cdot a\cdot(x_{1}-x_{2})} &&\end{flalign}$$
+
 ### Forza e massa
 La forza applicata è equivalente al prodotto della massa per l'accelerazione
 $$\begin{flalign}F=m\cdot a &&\end{flalign}$$
@@ -48,6 +53,7 @@ $$\begin{flalign}\vec{v}=\lim_{ \Delta t \to 0 } \frac{\vec{\Delta r}}{\Delta t}
 $$\begin{flalign}\vec{a}=\frac{d^{2}x}{dt^{2}}\vec{i}+\frac{d^{2}y}{dt^{2}}\vec{j} &&\end{flalign}$$
 
 $$\begin{flalign}\vec{F}=G\cdot \frac{m_{1}\cdot m_{2}}{r^{2}}\hat{r} &&\end{flalign}$$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Forza elastica
 Le caratteristiche di una molla sono:
@@ -59,8 +65,6 @@ $\vec{F_{e}}=-k \cdot\vec{\Delta x}$
 $F_{e}=m\cdot a$
 $-k\cdot\Delta x=m\cdot a$
 Dove $\Delta x=|l_{c}-x|$, centrando il sistema in $l_{c}$ si ottiene $\Delta x=|x|$
-
-<div class="page-break" style="page-break-before: always;"></div>
 
 # Attrito radente
 L'attrito è una forza che si oppone al movimento di un oggetto appoggiato su una superficie. Se l'attrito statico è maggiore o uguale alla forza applicata l'oggetto rimane fermo, altrimenti il caso diventa dinamico. Se l'attrito dinamico diventa maggiore della forza applicata l'oggetto si ferma.
@@ -82,13 +86,13 @@ La velocità tangenziale dipende da quella angolare e dal raggio e corrisponde a
 La velocità tangenziale è la variazione della posizione nel tempo
 $$\begin{flalign}\vec{v_{t}}=\frac{d(r\vec{u_{r}})}{dt}=\frac{dr}{dt}\vec{u_{r}}+\frac{d\vec{u_{r}}}{dt}r=\frac{dr}{dt}\vec{u_{r}}+\frac{d\theta}{dt}\vec{u_{r}}r=\frac{dr}{dt}\vec{u_{r}}+\omega \cdot r\cdot \vec{u_{r}}=\omega\cdot r\cdot \vec{u_{r}} &&\end{flalign}$$
 poiché il raggio è costante, in modulo: $v_{t}=r\cdot\omega$
+<div class="page-break" style="page-break-before: always;"></div>
+
 Derivando si ottiene
 $$\begin{flalign}\vec{a_{c}}=\frac{d\vec{u}}{dt}=\frac{d^{2}r}{dt^{2}}\vec{u_{r}}+\frac{dr}{dt}\vec{u_{\theta}}+\frac{dr}{dt}\cdot \frac{d\theta}{dt}\vec{u_{\theta}}+r \frac{d^{2}\theta}{dt^{2}}\vec{u_{\theta}}+r \frac{d\theta}{dt}\cdot \frac{d\vec{u_{\theta}}}{dt} &&\end{flalign}$$
 I primi tre termini si annullano poiché il raggio è costante, il quarto anche perché l'angolo varia in modo costante, quindi rimane
 $$\begin{flalign}\vec{a_{c}}=r \frac{d\theta}{dt}\cdot \frac{d\vec{u_{\theta}}}{dt}=-r \left( \frac{d\theta}{dt} \right)^{2}\vec{u_{r}}=-r\cdot\omega\cdot \vec{u_{r}} &&\end{flalign}$$
 L'accelerazione centripeta in modulo pertanto si calcola come: $a_{c}=r\cdot\omega^{2}$
-
-<div class="page-break" style="page-break-before: always;"></div>
 
 # Moto circolare uniformemente accelerato
 La velocità angolare $\omega$ cambia secondo un'accelerazione $\alpha$, pertanto c'è un'accelerazione tangenziale $a_{t}$ costante, mentre quella centripeta $a_{c}$ varia poiché dipende dalla velocità tangenziale
