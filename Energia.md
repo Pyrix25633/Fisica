@@ -23,7 +23,7 @@ Per una forza costante vale sempre $E_{p}=\vec{F}\cdot \vec{r}$, come nel caso d
 Per la forza elastica invece bisogna svolgere l'integrale e $E_{p}=\frac{k}{2}r^{2}$
 
 # Energia meccanica
-Se agiscono solo forze conservative vale $W=\Delta E_{c}=-\Delta E_{p}$ e l'energia meccanica $E_{m}=E_{c}+E_{p}$ di un punto materiale si conserva ed è costante
+Se agiscono solo forze conservative vale $W=\Delta E_{k}=-\Delta E_{p}$ e l'energia meccanica $E_{m}=E_{k}+E_{p}$ di un punto materiale si conserva ed è costante
 <div class="page-break" style="page-break-before: always;"></div>
 
 # Quantità di moto
