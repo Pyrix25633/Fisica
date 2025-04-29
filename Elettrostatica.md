@@ -19,7 +19,15 @@ $$\begin{flalign}dE_{x}=\frac{1}{4\pi\varepsilon_{0}}\cdot \frac{dq}{\left(\sqrt
 dove $\theta$ è l'angolo formato con l'orizzontale dal segmento $\overrightarrow{RP}$ lungo $\rho$
 $$\begin{flalign} \frac{x_{0}}{\rho}=\cos(\theta)\implies \rho=\frac{x_{0}}{\cos(\theta)}=\sqrt{y^{2}+x_{0}^{2}} &&\end{flalign}$$
 $$\begin{flalign}y=x_{0}\cdot \tan(\theta)\implies\theta=\arctan\left( \frac{y}{x_{0}} \right) &&\end{flalign}$$
+$$\begin{flalign}dy=\frac{x_{0}}{\cos ^{2}(\theta)}d\theta &&\end{flalign}$$
 Quindi il campo elettrico è l'integrale
 $$\begin{flalign}E_{x}&=\int_{-a}^{a} dE_{x}=\int_{-a}^{a} \frac{1}{4\pi\varepsilon_{0}}\cdot \frac{\lambda\cdot dy}{y^{2}+x_{0}^{2}}\cdot \cos(\theta)\\
-&=\int_{-\theta_{0}}^{\theta_{0}} \frac{1}{}
+&=\int_{-\theta_{0}}^{\theta_{0}} \frac{1}{4\pi\varepsilon_{0}}\cdot \frac{\lambda\cdot x_{0}}{\cos ^{2}(\theta)}\cdot d\theta\cdot\left( \frac{\cos(\theta)}{x_{0}} \right)^{2}\cdot \cos(\theta)\\
+&=\frac{\lambda}{4\pi\varepsilon_{0}x_{0}}\cdot[\sin(\theta)]_{-\theta_{0}}^{\theta_{0}}
 &&\end{flalign}$$
+
+# Flusso elettrico
+La superficie della sfera equivale a $S=4\pi r^{2}$
+Il flusso elettrico è dato da
+$$\begin{flalign}\Phi_{E}=E\cdot S=\frac{1}{4\pi\varepsilon_{0}}\cdot \frac{q}{r^{2}}\cdot4\pi r^{2}=\frac{q}{\varepsilon_{0}} &&\end{flalign}$$
+E vale su tutte le superfici chiuse indipendentemente dalla posizione della carica
